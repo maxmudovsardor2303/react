@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navbar {
+  max-width: 236px;
+  margin-left: 856px;
+}
+
+.navbar ul li {
+  list-style: none;
+
+
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  padding: 30px;
+
+}
+
+
+.container {
+  max-width: 855px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 16px;
+
+}
+
+.container-item {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  gap: 30px;
+  h1{
+    font-size: 44px;
+  }
+  p{
+    font-size: 16px;
+  }
+  .button{
+    max-width: 208px;
+    border:none;
+    background-color: rgba(255, 100, 100, 1);
+    font-size: 20px;
+    color: #fff;
+  }
+}
+
+.wrapper-container{
+  h4{
+    padding-left: 310px;
+    padding-top: 30px;
+  }
+  width: 100%;
+  background: rgba(237, 247, 250, 1);
+  margin-top: 30px;
+  .wrapper-box{
+    padding-top: 30px;
+    max-width: 800px;
+    display: flex;
+    gap: 70px;
+    margin: auto;
+  }
+  .wrapper-item{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #fff;
+  }
+} 
+.shelov{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  h4{
+    padding-right: 700px;
+  }
+  .ming-body{
+        display: flex;
+        gap: 20px;
+        .main-img{
+          max-width: 240px;
+        }
+        .shadov{
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          h2{
+            max-width: 300px;
+            font-family: Heebo;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 44px;
+          }
+        }
+        .shelov_box{
+          display: flex;
+          gap: 20px;
+          p{
+            color: rgba(134, 149, 164, 1);
+          }
+          span{
+                background: black;
+                color: #fff;
+                border: 4px solid;
+          }
+        }
+        p {
+          max-width: 500px;
+          font-family: Heebo;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+      }
+  }
+}
+
+
+
